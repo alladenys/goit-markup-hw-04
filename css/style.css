@@ -275,6 +275,12 @@ body {
     margin-right: 10px;
     margin-bottom:10px;
     flex-basis: calc((100% - 3 * 10px) / 3);
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+}
+.flex-wrap-item:hover{
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 .project-name {
     font-weight: bold;
