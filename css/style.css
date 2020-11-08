@@ -1,0 +1,337 @@
+:root {
+    --main-text-cl: #757575;
+    --accent-cl: #2196F3;
+    --black-cl: #212121;
+    --whait-cl: #FFFFFF;
+    --dark-bg: #2F303A;
+}
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-right: 0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--black-cl);
+}
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right:15px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex {
+    display: flex;
+    margin-bottom: 25px;
+}
+.logo {
+    display: inline-block;
+    margin-top: 24px;
+    margin-right: 93px;
+    margin-left: 0px;
+    Width: 145px;
+    Height: 31px;
+}
+.main {
+    height: 1628px;
+    background-color:#E5E5E5;
+}
+.portfolio-container{
+    padding-top: 94px;
+    margin: 0;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.portfolio-container-item {
+    margin-left: 0;  
+    margin-left: -10px;
+    margin-bottom: -10px;
+}
+.list {
+    list-style: none;
+    display: inline-flex;
+    margin-top: 24px;
+    box-sizing: border-box;
+    margin-left: 0; 
+}
+.list:not(:last-child){
+    margin-right: 30px;
+}
+.portfolio-list{
+    display: flex;
+    list-style: none;
+}
+
+.header-box{
+    background-color: var(--whait-cl);
+}
+.logo1 {
+    font-family: "Raleway", serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: var(--accent-cl);
+}
+.logo2 {
+    font-family: "Raleway", serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: var(--black-cl);
+}
+.logo3 {
+    font-family: "Raleway", serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: var(--whait-cl)
+}
+.link {
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+.link-item{
+    height: 16px;
+}
+.link-item:not(:last-child){
+    margin-right: 50px;
+}
+.left-list {
+    flex-direction: row-reverse;
+    margin: 0;
+}
+.link:hover,
+.link:focus {
+    color: var(--accent-cl)
+}
+.backgraund {
+    padding-top: 200px;
+    height: 600px;
+    background-color: #2F303A;
+}
+.backgraund-down{
+    background-color: #2F303A;
+    height: 215px;
+}
+.page-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: var(--whait-cl);
+    width: 696px;
+    height: 120px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}.btn {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--whait-cl);
+    background-color:var(--accent-cl);
+    border-radius: 4px;
+    display: block;
+    margin:0 auto;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+    color: var(--black-cl);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.list-img{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.list-item-position{
+    margin-bottom: 94px;
+}
+.list-item-position:not(:last-child){
+    margin-right: 30px;
+}
+.main-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-text-cl);
+    width: 270px;
+    margin-left: 0;
+    padding-left: 0;   
+}
+.text-box {
+    width: 270px;
+    height: 75px;
+    margin-bottom: 0;
+    margin-bottom: 94px;
+}
+.job-description {
+    font-size: 16px;
+    line-height: 1.187;
+    letter-spacing: 0.03em;
+    color: var(--main-text-cl);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center
+}
+.introduction {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    letter-spacing: 0.03em;
+    color: var(--black-cl);
+}
+.team-box{
+    height: 648px;
+    background-color: #F5F4FA;
+    box-sizing: inherit;
+}
+.list-position {
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.team-titel{
+    padding-top: 94px;
+    margin-bottom: 0;
+    margin-bottom: 50px;
+}
+.list-contacts-img{
+    background-color: var(--whait-cl);
+    margin-top: 0;
+}
+.list-contacts-img:not(:last-child){
+    margin-right: 30px;
+}
+.list-position-item:not(:last-child){
+   margin-right: 30px;
+}
+.contacts-information{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center
+}
+.adress {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--whait-cl);
+    text-decoration: none;
+    font-style: normal;
+}
+.contacts {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.contacts-box {
+    padding-top: 60px;
+}
+.btn-portfolio {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--whait-cl);
+    background-color: var(--accent-cl)
+}
+.flex-wrap{
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    margin-right: -10px;
+    margin-bottom: -10px;
+}
+.flex-wrap-item { 
+    background: #FFFFFF;
+    margin-right: 10px;
+    margin-bottom:10px;
+    flex-basis: calc((100% - 3 * 10px) / 3);
+}
+.project-name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--black-cl--);
+    margin-left: 24px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.project-type {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color:var(--main-text-cl);
+    margin-left: 24px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+.btn-portfolio {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--black-cl);
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+.btn-parameter{
+    margin-left: 8px;
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+    background-color: var(--accent-cl);
+    color: var(--whait-cl);
+    border-color: var(--accent-cl);
+}
+.logo-position {
+    padding: 0;
+    margin-top: 60px;
+    width: 145px;
+}
+.list-item {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+    width: 231px;
+    display: inline-block;
+}
+.list-item:not(:last-child){
+    margin-bottom: 9px;
+    display: inline-block;
+}
