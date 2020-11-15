@@ -202,7 +202,7 @@ body {
 
 .link:hover
 .link:focus{
-    fill;var(--accent-cl)
+    fill:var(--accent-cl);
 }
 .backgraund {
     padding-top: 200px;
