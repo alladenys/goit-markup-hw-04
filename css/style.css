@@ -66,6 +66,8 @@ body {
     border:  0;
 }
 .icon-header-item1{
+    margin-top: 2px;
+    margin-bottom: 0;
     width: 16px;
     height: 12px;
     margin-left: 0;
@@ -77,6 +79,7 @@ body {
     fill:var(--accent-cl);
 }
 .icon-header-item2{
+    margin-bottom: 0;
     margin-left: 30px;
     width: 10px;
     height: 16px;
@@ -93,6 +96,7 @@ body {
     height: 120px;
     padding-top: 25px;
     padding-bottom: 25px;
+    text-align: center;
 }
 .features{
     width: 65px;
@@ -183,15 +187,20 @@ body {
     align-items: center;
 }
 .right-list{
+    margin-top: 32px;
     font-weight: 500;
     margin-left: 305px;
     margin-right: 0;
     padding-inline-start: 0;
     margin-bottom: 0;
-    align-items: center;
     color: var(--main-text-cl);
 }
 .link-item-right{
+    margin-top: 2px;
+    margin-bottom: 0;
+    height: 16px;
+    padding: 0;
+    margin: 0;
     font-style: normal;
     font-weight: 500;
     align-items: center;
@@ -502,6 +511,12 @@ body {
     margin-right: 30px;
     border-radius: 4px;
     box-sizing: border-box;
+    text-align: center;
+}
+.client-logo-svg{
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 .client-logo-svg:nth-child(n+1){
     width: 44px;
