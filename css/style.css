@@ -569,6 +569,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+.client-logo:hover{
+    border: 1px solid var(--accent-cl);
+}
 .client-logo-link{
     display: flex;
     box-sizing: border-box;
